@@ -5,7 +5,7 @@ cask "cojudge" do
   url "https://github.com/cojudge/cojudge/releases/download/v#{version}/Cojudge_#{version}_universal.dmg"
   name "Cojudge"
   desc "Offline-first code judge for solving algorithmic problems"
-  homepage "https://cojudge.cloud"
+  homepage "https://cojudge.cloud/"
 
   livecheck do
     url :url
@@ -13,7 +13,7 @@ cask "cojudge" do
   end
 
   auto_updates true
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Cojudge.app"
 
