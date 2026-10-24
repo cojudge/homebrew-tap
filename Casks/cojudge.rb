@@ -23,4 +23,12 @@ cask "cojudge" do
     "~/Library/Preferences/cloud.cojudge.desktop.plist",
     "~/Library/Saved Application State/cloud.cojudge.desktop.savedState",
   ]
+
+  caveats <<~EOS
+    First install only (app is ad-hoc signed, not yet notarized):
+      xattr -dr com.apple.quarantine /Applications/Cojudge.app
+
+    Then launch:
+      open -a Cojudge
+  EOS
 end
