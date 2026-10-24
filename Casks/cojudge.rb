@@ -28,7 +28,7 @@ cask "cojudge" do
     First install only (app is ad-hoc signed, not yet notarized):
       xattr -dr com.apple.quarantine /Applications/Cojudge.app
 
-    Then launch:
+    Then launch Cojudge from the Applications folder, or with:
       open -a Cojudge
   EOS
 end
