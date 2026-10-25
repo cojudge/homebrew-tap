@@ -1,6 +1,6 @@
 cask "cojudge" do
-  version "0.8.6"
-  sha256 "def217961a0833a33f713266f6a237ea188e1b01ae72b349f842afee6db3e9db"
+  version "0.8.7"
+  sha256 "68af7b1f4260c4d5d53b47c5e08ea17aae383b8697ee2010e6746fba68e91d30"
 
   url "https://github.com/cojudge/cojudge/releases/download/v#{version}/Cojudge_#{version}_universal.dmg"
   name "Cojudge"
